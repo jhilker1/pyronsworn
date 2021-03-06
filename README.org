@@ -1,3 +1,0 @@
-#+title: Pyronsworn
-
-[[https://readthedocs.org/projects/pyronsworn/badge/?version=dev]]
