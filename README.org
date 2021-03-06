@@ -1,4 +1,9 @@
 #+title: Pyronsworn
+
 Pyronsworn is a python module for the tabletop rpg Ironsworn.
 
-[[https://pyronsworn.readthedocs.io/en/latest/?badge=dev][https://readthedocs.org/projects/pyronsworn/badge/?version=dev]]
+#+begin_html
+<a href='https://pyronsworn.readthedocs.io/en/latest/?badge=dev'>
+    <img src='https://readthedocs.org/projects/pyronsworn/badge/?version=dev' alt='Documentation Status' />
+</a>
+#+end_html
