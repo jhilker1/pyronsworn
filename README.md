@@ -1,6 +1,4 @@
----
-title: Pyronsworn
----
+# Pyronsworn
 
 Pyronsworn is a python module for the tabletop rpg Ironsworn.
 
