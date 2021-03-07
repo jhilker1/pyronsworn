@@ -19,6 +19,11 @@ class Vow:
         return f"{self.name} - {self.rank.value.title()} Vow, {self.progress} Progress, {self.ticks} Ticks"
 
     def update(self):
+        """
+        update moves a vow forward based on its rank.
+        Returns:
+            None
+        """        
         if self.rank.value == "troublesome":
             self.progress = self.progress + 3
         elif self.rank.value == "dangerous":
