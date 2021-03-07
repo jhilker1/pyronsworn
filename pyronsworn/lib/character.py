@@ -2,10 +2,16 @@ class Character:
     """
      A Character represents the sheet a player would use when keeping track of the game.
 
+    Attributes:
+        name:
+            str. Represents a characters name.
     """    
     name = ""
     age = 0
-    
+    vows = []
+    momentum = 2
+    stats = {}
+
     def __init__(self, name=""):
         self.name = name
 
