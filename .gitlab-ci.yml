@@ -9,15 +9,16 @@ variables:
 
 test:
   script:
-    - hugo
-  except:
-    - dev --config site/config.toml --themesDir=site/themes
+    - hugo --config site/config.toml --themesDir=site/themes
 
+  except:
+    - dev 
 pages:
   script:
-    - hugo
+    - hugo --config site/config.toml --themesDir=site/themes
+
   artifacts:
     paths:
       - public
   only:
-    - dev --config site/config.toml --themesDir=site/themes
+    - dev 
