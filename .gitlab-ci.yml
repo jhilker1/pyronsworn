@@ -11,7 +11,7 @@ test:
   script:
     - hugo
   except:
-    - dev
+    - dev --config site/config.toml --themesDir=site/themes
 
 pages:
   script:
@@ -20,4 +20,4 @@ pages:
     paths:
       - public
   only:
-    - dev
+    - dev --config site/config.toml --themesDir=site/themes
