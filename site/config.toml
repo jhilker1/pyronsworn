@@ -1,0 +1,4 @@
+baseURL = "https://jhilker.gitlab.io/pyronsworn"
+languageCode = "en-us"
+title = "Pyronsworn"
+theme = "ace-docs"
