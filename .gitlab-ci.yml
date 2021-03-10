@@ -9,7 +9,7 @@ variables:
 
 test:
   script:
-    - hugo --config website/config.toml --themesDir=website/themes --contentDir=website/content
+    - hugo -s=website -d=website
 
   except:
     - dev 
