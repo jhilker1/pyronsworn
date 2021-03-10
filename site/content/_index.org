@@ -1,5 +1,0 @@
-#+title: Pyronsworn
-#+draft: false
-
-
-Pyronsworn is a python module to assist with running and playing the tabletop rpg Ironsworn.
