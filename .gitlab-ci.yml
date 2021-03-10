@@ -15,7 +15,7 @@ test:
     - dev 
 pages:
   script:
-    - hugo --config site/config.toml --themesDir=site/themes --contentDir=site/content -s site/
+    - hugo --config site/config.toml --themesDir=site/themes --contentDir=site/content -d site/ -s site/
 
   artifacts:
     paths:
