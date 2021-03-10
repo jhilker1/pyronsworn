@@ -9,13 +9,13 @@ variables:
 
 test:
   script:
-    - hugo --config site/config.toml --themesDir=site/themes --contentDir=site/content -d site -s site/
+    - hugo --config=site/config.toml --themesDir=site/themes --contentDir=site/content -d site -s site/
 
   except:
     - dev 
 pages:
   script:
-    - hugo --config site/config.toml --themesDir=site/themes --contentDir=site/content -d site/ -s site/
+    - hugo --config site/config.toml --themesDir=site/themes --contentDir=site/content -d site/public -s site/
 
   artifacts:
     paths:
