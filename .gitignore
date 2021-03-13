@@ -1,0 +1,5 @@
+.venv
+docs
+pyronsworn 
+pyronsworn.egg-info
+setup.py

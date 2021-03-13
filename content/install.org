@@ -1,0 +1,8 @@
+#+title: Install
+#+date: 2021-03-06T23:27:31-05:00
+#+draft: true
+#+weight: 2
+
+Installing is fairly straightforward. There are several ways to install pyronsworn as well.
+
+* 1. Creating a Virtual Environment

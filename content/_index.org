@@ -1,0 +1,11 @@
+#+title: Home
+#+draft: false
+#+layout: single
+
+Pyronsworn is a Python module for managing characters in the tabletop rpg [[https://ironswornrpg.com][Ironsworn]]. This website serves as the official homepage of the project. Documentation is available here, and also on ReadTheDocs. 
+
+Similar to the =ncurses= and =Tkinter= modules, Pyronsworn is not in and of itself a program. Instead, it is used to make programs to assist with running or playing the game - for instance, a campaign manager or a campaign journal application. 
+
+I did not create Ironsworn, but as a player and fan of the game, I wanted to create a module that could help people integrate the game into their programs. Instead of donating to me for the program, go buy the game.
+
+{{< copyright >}}
