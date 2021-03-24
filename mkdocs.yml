@@ -1,6 +1,7 @@
 site_name: Chronicler for CK3
 repo_url: https://gitlab.com/jhilker/pyronsworn/
-repo_name: jhilker/pyronsworns
+repo_name: jhilker/pyronsworn
+edit_uri: /edit/dev/docs/
 nav:
   - Home: index.md
   - Install: install.md
