@@ -3,14 +3,13 @@ repo_url: https://gitlab.com/jhilker/pyronsworn/
 repo_name: jhilker/pyronsworns
 nav:
   - Home: index.md
-  - Installation: install.md
+  - Install: install.md
 theme: 
   name: "material"
   palette: 
     scheme: slate
     primary: light blue
     accent: amber
-#theme: readthedocs
 plugins:
 - search
 - mkdocstrings:
